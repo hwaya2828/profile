@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'Jua';
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/jua-v8-latin_korean-regular.eot');
+  src: url('font/jua-v8-latin_korean-regular.eot?#iefix') format('embedded-opentype'),
+       url('font/jua-v8-latin_korean-regular.woff2') format('woff2'),
+       url('font/jua-v8-latin_korean-regular.woff') format('woff'),
+       url('font/jua-v8-latin_korean-regular.ttf') format('truetype'),
+       url('font/jua-v8-latin_korean-regular.svg#YeonSung') format('svg');
+}
+
+@font-face {
+  font-family: 'Yeon-sung';
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/yeon-sung-v8-latin_korean-regular.eot');
+  src: url('font/yeon-sung-v8-latin_korean-regular.eot?#iefix') format('embedded-opentype'),
+       url('font/yeon-sung-v8-latin_korean-regular.woff2') format('woff2'),
+       url('font/yeon-sung-v8-latin_korean-regular.woff') format('woff'),
+       url('font/yeon-sung-v8-latin_korean-regular.ttf') format('truetype'),
+       url('font/yeon-sung-v8-latin_korean-regular.svg#YeonSung') format('svg');
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/nanum-gothic-v17-latin_korean-regular.eot');
+  src: url('font/nanum-gothic-v17-latin_korean-regular.eot?#iefix') format('embedded-opentype'),
+       url('font/nanum-gothic-v17-latin_korean-regular.woff2') format('woff2'),
+       url('font/nanum-gothic-v17-latin_korean-regular.woff') format('woff'),
+       url('font/nanum-gothic-v17-latin_korean-regular.ttf') format('truetype'),
+       url('font/nanum-gothic-v17-latin_korean-regular.svg#NanumGothic') format('svg');
+}
+
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('font/nanum-myeongjo-v15-latin_korean-regular.eot');
+  src: url('font/nanum-myeongjo-v15-latin_korean-regular.eot?#iefix') format('embedded-opentype'),
+       url('font/nanum-myeongjo-v15-latin_korean-regular.woff2') format('woff2'),
+       url('font/nanum-myeongjo-v15-latin_korean-regular.woff') format('woff'),
+       url('font/]nanum-myeongjo-v15-latin_korean-regular.ttf') format('truetype'),
+       url('font/nanum-myeongjo-v15-latin_korean-regular.svg#YeonSung') format('svg');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.body-container {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.nav-container {
+  padding: 11px;
+  border-bottom: 2px solid white;
+}
+
+.navbarmain {
+  font-family: Nanum Gothic;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.navbarother {
+  font-family: Yeon-sung;
+  font-size: 1.45rem;
+}
+
+.navbarmain:link, .navbarmain:visited, .navbarother:link, .navbarother:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-mainbutton, .nav-otherbutton {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.nav-mainbutton {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nav-otherbutton {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#typewriteText1 {
+  display: inline;
+  font-family: Nanum Gothic;
+  font-size: 4.2rem;
+  font-weight: bold;
+  color: goldenrod;
+  padding: 10px;
+  margin: 60px;
+  margin-right: 0px;
+}
+
+#typewriteText2 {
+  display: inline;
+  font-family: Nanum Gothic;
+  font-size: 4.2rem;
+  font-weight: bold;
+  color: gold;
+  padding: 10px;
+  margin-top, margin-bottom: : 60px;
+}
+
+#typewriteText3 {
+  display: inline;
+  font-family: Nanum Gothic;
+  font-size: 4.2rem;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  margin-top, margin-bottom: : 60px;
+}
+
+#typewriteText4 {
+  font-family: Yeon-sung;
+  font-size: 3rem;
+  font-weight: bold;
+  color: gainsboro;
+  padding: 10px;
+  margin: 60px;
+  margin-top: 50px;
+}
+
+.copy-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  height: 3rem;
+}
+
+.copyright {
+  text-align: center;
+  font-family: Yeon-sung;
+  font-size: 1.15rem;
+  color: white;
+}
+
+.navbarmain-1 {
+  font-family: Nanum Gothic;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.navbarother-1 {
+  font-family: Yeon-sung;
+  font-size: 1.45rem;
+}
+
+.navbarmain-1:link, .navbarmain-1:visited, .navbarother-1:link, .navbarother-1:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.copyright-1 {
+  text-align: center;
+  font-family: Yeon-sung;
+  font-size: 1.15rem;
+  color: black;
+}
+
+.photo {
+  text-align: center;
+}
+
+.profile {
+  width: 180px;
+  height: 225px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+.introduce-name {
+  text-align: center;
+  font-family: Nanum Gothic;
+  font-size: 1.35rem;
+}
+
+.introduce-other {
+  text-align: center;
+  font-family: Nanum Myeongjo;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.love {
+  font-family: Nanum Gothic;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+blockquote {
+  margin: 0 auto;
+  max-width: 500px;
+  position: relative;
+}
+
+blockquote::before {
+  content: "\201C";
+  vertical-align: top;
+  position: absolute;
+  left: -10%;
+  color: gray;
+  font-size: 3rem;
+  line-height: 0.8;
+}
+
+blockquote p {
+  font-family: Yeon-sung;
+  font-size: 1.45rem;
+  text-align: center;
+}
+
+.lovethings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text_photo {
+  position: relative;
+  margin: 15px;
+}
+
+.pic-love {
+  width: 170px;
+  height: 170px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+.explain{
+  position: absolute;
+  visibility: hidden;
+  font-size: 2rem;
+  width: 100%;
+  top: 40%;
+  text-align: center;
+  font-family: Yeon-sung;
+}
+
+.text_photo:hover {
+  opacity: 0.5;
+}
+
+.text_photo:hover .explain{
+  visibility: visible;
+}
+
+.made {
+  font-family: Nanum Gothic;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.made-container {
+  font-family: Yeon-sung;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.made-list {
+  margin: 10px;
+}
+
+.made-explain {
+  font-size: 1.35rem;
+  font-family: Yeon-sung;
+  padding: 5px;
+}
+
+.movie:link , .movie:visited {
+    color: black;
+    text-decoration: none;
+}

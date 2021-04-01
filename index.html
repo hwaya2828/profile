@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/mrvautin/typewrite/master/dist/typewrite.min.js"></script>
+    <title> :: Let me introduce myself! :: </title>
+
+    <style>
+      body {
+        background-image: url('img/background5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="body-container">
+      <nav class="nav-container">
+        <button class="nav-mainbutton">
+          <a class="navbarmain" href="index.html"> MiHwa Yang </a>
+        </button>
+        <button class="nav-otherbutton">
+          <a class="navbarother" href="about.html"> About me </a>
+        </button>
+        <button class="nav-otherbutton">
+           <a class="navbarother" href="things.html"> Things I love </a>
+        </button>
+        <button class="nav-otherbutton">
+          <a class="navbarother" href="look.html"> Look what I made </a>
+        </button>
+      </nav>
+
+      <br> <br> <br>
+      <div id="typewriteText1">
+      </div>
+      <div id="typewriteText2">
+      </div>
+      <div id="typewriteText3">
+      </div>
+      <div id="typewriteText4">
+      </div>
+
+      <script>
+      $(document).ready(function(){
+        $('#typewriteText1').typewrite({
+          speed: 8,
+          showCursor: false,
+          actions: [
+              {delay: 100},
+              {type: '>>> '}
+          ]
+        });
+      });
+      </script>
+
+      <script>
+      $(document).ready(function(){
+        $('#typewriteText2').typewrite({
+          speed: 8,
+          showCursor: false,
+          actions: [
+              {delay: 700},
+              {type: 'print '}
+          ]
+        });
+      });
+      </script>
+
+      <script>
+      $(document).ready(function(){
+        $('#typewriteText3').typewrite({
+          speed: 10,
+          showCursor: false,
+          actions: [
+              {delay: 1400},
+              {type: '("welcome!")'}
+          ]
+        });
+      });
+      </script>
+
+      <script>
+      $(document).ready(function(){
+        $('#typewriteText4').typewrite({
+          speed: 12,
+          actions: [
+              {delay: 3200},
+              {type: 'I\'m a '},
+              {delay: 300},
+              {remove: {num: 1, type: 'stepped'}},
+              {select: {from: 1, to: 5}},
+              {delay: 300},
+              {remove: {num: 4, type: 'whole'}},
+              {delay: 200},
+              {type: ' am a Jr. backend developer '},
+              {type: '<br>'},
+              {type: 'who wishes to grow up with you. '}
+          ]
+        });
+      });
+      </script>
+
+      <footer class="copy-container">
+          <div class="copyright">
+              <p> copyright &copy; 2021 양미화 MiHwaYang. All Rights Reserved. </p>
+          </div>
+      </footer>
+    </div>
+
+  </body>
+</html>
